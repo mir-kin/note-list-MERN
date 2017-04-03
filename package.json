@@ -1,0 +1,23 @@
+{
+  "name": "NotesApp",
+  "version": "0.0.1",
+  "description": "Notes application",
+  "scripts": {
+    "server": "babel-node server/app.js"
+  },
+  "author": {
+    "name": "Kateryna Porshnieva",
+    "email": "k.porshnieva@gmail.com",
+    "url": "https://github.com/krambertech"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "*",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.2"
+  },
+  "devDependencies": {
+    "babel": "5.x",
+    "babel-loader": "5.x"
+  }
+}
