@@ -6,7 +6,7 @@ import { db } from '../config.json';
 const Note = mongoose.model('Note');
 
 export function setUpConnection() {
-    mongoose.connect(`mongodb://${db.host}/${db.name}`);
+    mongoose.connect(`mongodb://${db.host}/${db.name}${db.params}`);
 }
 
 export function listNotes() {

@@ -4,7 +4,8 @@
   "db": {
       "name": "notes",
       "host": "localhost",
-      "port": 27017
+      "port": 27017,
+      "params": "?w=1"
   }
 
 }
